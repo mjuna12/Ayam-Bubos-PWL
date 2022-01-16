@@ -121,7 +121,7 @@ else
                                 <div class="card">
                                     <h3 class="card-header">Selamat Datang Di Halaman Administrator</h3>
                                     <div class="card-body text-center">
-                                        <img src="/images/admin.png" alt="" width="700">
+                                        <img src="../images/logo_ayam.png" alt="" width="700">
                                     </div>
                                 </div>
                             </div>
