@@ -102,7 +102,8 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Password</label>
-                                    <input class="input--style-4" type="password" name="password">
+                                    <input class="input--style-4" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                                    title="Harus berisi setidaknya satu angka, satu huruf besar dan kecil, dan setidaknya 8 karakter atau lebih" required>
                                 </div>
                             </div>
                         </div>
