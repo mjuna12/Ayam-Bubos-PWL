@@ -119,7 +119,7 @@ else
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
                                             <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Tables</a></li>
-                                            <li class="breadcrumb-item"><a href="table_kategori.php" class="breadcrumb-link">Daftar Makanan</a></li>
+                                            <li class="breadcrumb-item"><a href="hal_makanan.php" class="breadcrumb-link">Daftar Makanan</a></li>
                                             <li class="breadcrumb-item active" aria-current="page"></li>Form Makanan
                                         </ol>
                                     </nav>
