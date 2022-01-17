@@ -3,13 +3,13 @@
 include 'koneksi/connection.php';
 session_start(); 
 
-$id_customer = isset($_POST['id_customer']) ? $_POST['id_customer'] : '';
+$id_customer = isset($_POST['id_customer']) ? $_POST['id_customer'] : '0';
 $query = "SELECT * from customer where id_customer = '$id_customer'";
 
 $result = mysqli_query($con, $query);
 $row = mysqli_fetch_assoc($result);
 
-isset($nama['nama_customer'])
+$nama_customer = isset($_POST['nama_customer']) ? $_POST['nama_customer'] : '0';
 ?>
 
 
