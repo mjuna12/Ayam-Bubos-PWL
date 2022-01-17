@@ -71,14 +71,14 @@
 
 	<div id="dropDownSelect1"></div>
 
-	<script src="assets/Login_v4/vendor/jquery/jquery-3.2.1.min.js"></script>
-	<script src="assets/Login_v4/vendor/animsition/js/animsition.min.js"></script>
-	<script src="assets/Login_v4/vendor/bootstrap/js/popper.js"></script>
-	<script src="assets/Login_v4/vendor/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/Login_v4/vendor/select2/select2.min.js"></script>
-	<script src="assets/Login_v4/vendor/daterangepicker/moment.min.js"></script>
-	<script src="assets/Login_v4/vendor/daterangepicker/daterangepicker.js"></script>
-	<script src="assets/Login_v4/vendor/countdowntime/countdowntime.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.2/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/3.0.5/daterangepicker.min.js"></script>
 	<script src="assets/Login_v4/js/main.js"></script>
 
 </body>
