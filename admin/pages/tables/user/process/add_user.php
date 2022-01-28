@@ -3,9 +3,9 @@
     include '../../../../../koneksi/connection.php';
 
     // mendapatkan nilai dari form
-    $id_customer       = $_POST['id_customer'];
-    $username    = $_POST['username'];
-    $password      = $_POST['password'];
+    $id_customer       = mysql_escape_string($_POST['id_customer']);
+    $username    = mysql_escape_string($_POST['username']);
+    $password      = mysql_escape_string($_POST['password']);
 
     $query = "INSERT INTO user VALUES ('$username','$password','Customer','$id_customer',0)";
 
