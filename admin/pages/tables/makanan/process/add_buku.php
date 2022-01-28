@@ -3,12 +3,12 @@
     include '../../../../../koneksi/connection.php';
 
     // mendapatkan nilai dari form
-    $id_makanan      = $_POST['id_makanan'];
-    $nama_makanan   = $_POST['nama_makanan'];
-    $id_kategori    = $_POST['id_kategori'];
-    $stok           = $_POST['stok'];
-    $harga          = $_POST['harga'];
-    $deskripsi      = $_POST['deskripsi'];
+    $id_makanan      = mysql_escape_string($_POST['id_makanan']);
+    $nama_makanan   = mysql_escape_string($_POST['nama_makanan']);
+    $id_kategori    = mysql_escape_string($_POST['id_kategori']);
+    $stok           = mysql_escape_string($_POST['stok']);
+    $harga          = mysql_escape_string($_POST['harga']);
+    $deskripsi      = mysql_escape_string($_POST['deskripsi']);
 
     $nama_folder    = "images";
     $nama_file      = $_FILES["gambar"]["name"];
